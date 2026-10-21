@@ -3,45 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for v1lads Pin Scheduler.">
+  <meta name="description" content="Privacy Policy for v1lads Pin Scheduler, a personal Pinterest publishing automation project.">
+  <meta name="robots" content="index, follow">
   <title>Privacy Policy — v1lads Pin Scheduler</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="page policy-page">
-    <header class="topbar"><a class="wordmark" href="./">v1lads<span> / Pin Scheduler</span></a><nav aria-label="Main navigation"><a href="./">Home</a></nav></header>
+    <header class="topbar">
+      <a class="wordmark" href="./">v1lads<span> / Pin Scheduler</span></a>
+      <nav aria-label="Main navigation"><a href="./">Home</a></nav>
+    </header>
     <main class="policy">
       <div class="eyebrow">PRIVACY &amp; DATA USE</div>
       <h1>Privacy Policy</h1>
-      <p class="lead">v1lads Pin Scheduler · Updated October 21, 2026</p>
-      <p><strong>Project status.</strong> v1lads Pin Scheduler is a private Pinterest publishing automation project under development. This policy describes the proposed data handling of the application. It must be updated to match the actual deployed implementation before public use.</p>
+      <p class="lead">v1lads Pin Scheduler · Last updated: October 21, 2026</p>
 
-      <h2>1. Operator and contact</h2>
-      <p>Project: v1lads Pin Scheduler. Operator: <strong>[REPLACE WITH REAL OWNER OR BUSINESS NAME]</strong>. Contact email: <a href="mailto:REPLACE_WITH_REAL_EMAIL@example.com">[REPLACE WITH REAL CONTACT EMAIL]</a>.</p>
+      <p>v1lads Pin Scheduler is a personal software project in development. This Privacy Policy explains how the project's informational website operates today and how the planned Pinterest publishing application is intended to handle information once it is activated. The public website does not offer account registration or Pinterest publishing services.</p>
 
-      <h2>2. Information required by the application</h2>
-      <p>Once implemented and authorized, the workflow is designed to access only the information necessary for the selected publication task, such as Pinterest account identifiers, destination board identifiers, user-selected images, Pin titles and descriptions, destination links, planned publication times, and returned Pin identifiers or error messages.</p>
-      <p>Where an account is connected using Pinterest OAuth, the workflow may also handle access and refresh tokens to maintain the authorized connection. It is not designed to request Pinterest account passwords.</p>
+      <h2>1. Who operates this project</h2>
+      <p>Project name: <strong>v1lads Pin Scheduler</strong>.</p>
+      <p>Operator: <strong>an independent developer using the project name Trandxya Cyber</strong>. Trandxya Cyber is a personal project name, not a claim that a separate legal company is incorporated.</p>
+      <p>Contact for privacy inquiries: <a href="mailto:trandxya@gmail.com">trandxya@gmail.com</a>.</p>
 
-      <h2>3. Why the information is used</h2>
-      <p>These data will be used to identify the correct authorized account and board, publish individual Pins selected in advance by the operator, maintain a publishing queue, and record errors or successful publication results. The integration is not designed to sell account or content data.</p>
+      <h2>2. Information handled by this website</h2>
+      <p>The website at <a href="https://trandxya-cyber.github.io/pin-scheduler/">trandxya-cyber.github.io/pin-scheduler/</a> is an informational, static website. It does not contain a contact form, application login, visitor analytics scripts or file upload feature. Visitors are not asked to provide Pinterest passwords or authorization tokens.</p>
+      <p>If you contact the operator by email, your email address and message will be used to respond to your inquiry and handle related follow-up. You may ask for that correspondence to be deleted by emailing the same address.</p>
+      <p>This website is hosted using GitHub Pages. GitHub may process technical information about website visits, such as IP addresses and request logs, under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">General Privacy Statement</a>.</p>
 
-      <h2>4. Storage and third-party services</h2>
-      <p>The planned workflow uses local files for source images and Google Sheets to manage the publishing queue. Authorized Pin content is transmitted to Pinterest in order to publish it. Google processes data held in the connected spreadsheet. The configured automation provider or locally hosted automation service, if used, may also process operational data and credentials as necessary for the integration.</p>
-      <p>The informational website is hosted on GitHub Pages. GitHub may process technical information about site visitors in accordance with its own privacy statement. This website has no contact form or application login feature.</p>
-      <p><strong>Implementation notice:</strong> Replace this section with the actual providers, storage locations and retention practices in use once the application is deployed.</p>
+      <h2>3. Planned Pinterest application data</h2>
+      <p>When the application is implemented and a Pinterest account is authorized by its owner, the intended publishing workflow may process the following information:</p>
+      <ul>
+        <li>Pinterest account identifiers and identifiers of boards selected for publication;</li>
+        <li>image files individually selected by the operator, together with their filenames;</li>
+        <li>Pin titles, descriptions, optional destination links and scheduled publishing times;</li>
+        <li>Pin identifiers, publication statuses and error information returned by Pinterest; and</li>
+        <li>OAuth access and refresh tokens needed to maintain authorized Pinterest connections.</li>
+      </ul>
+      <p>The application is not intended to request Pinterest account passwords or access accounts without the account owner's authorization.</p>
 
-      <h2>5. Access controls and retention</h2>
-      <p>Access to connected Pinterest accounts should be granted only by the account owner through Pinterest's authorization flow. Credentials and tokens must not be stored in this public GitHub Pages repository. Publishing records and account credentials should be kept only as long as operationally required, with access limited to authorized operators.</p>
+      <h2>4. Why this information is processed</h2>
+      <p>The planned application is designed to publish content deliberately selected in advance, send it to the specified authorized Pinterest account and board, manage a publication schedule, and record the result. It is not intended to collect visitor profiles, sell personal data, scrape private Pinterest data, or automate engagement activities such as following, commenting or messaging.</p>
 
-      <h2>6. Requests and deletion</h2>
-      <p>For questions about information processed by the project, access permissions, correction or deletion requests, contact <a href="mailto:REPLACE_WITH_REAL_EMAIL@example.com">[REPLACE WITH REAL CONTACT EMAIL]</a>. Pinterest account owners may also revoke a connected app's permissions through Pinterest's own account settings.</p>
+      <h2>5. Storage and service providers</h2>
+      <p>Source images are intended to remain on the operator's Windows computer before being transmitted for an authorized Pin publication. A Google Sheets document is intended to hold the publishing queue and associated metadata. Pinterest will receive the selected image and publication details when the application creates a Pin.</p>
+      <p>The automation technology is still being selected and tested. The options being evaluated are self-hosted n8n and Make. If Make is used, the data submitted to that workflow will also be processed by Make. If self-hosted n8n is used, the automation will run on the operator's computer. This section will be updated to reflect the actual implementation before the publishing application is put into use.</p>
+      <p>The public GitHub repository for this website is not used to store Pinterest credentials, OAuth tokens, private publishing queues or local source images.</p>
 
-      <h2>7. Changes</h2>
-      <p>This policy may be updated as the application's functionality or data processing changes. The date at the top of this page will reflect the latest revision.</p>
+      <h2>6. Retention and access</h2>
+      <p>Emails sent to the operator are kept only while needed to reply and resolve related inquiries. Access to application credentials and publishing records is intended to be restricted to the operator and any administrators expressly authorized by the operator. The operational retention periods for OAuth tokens and publishing records will be specified once the application is deployed; no deployed retention schedule is represented here as already in effect.</p>
+
+      <h2>7. Privacy requests and authorization revocation</h2>
+      <p>For questions about information associated with this project, or to request access, correction or deletion of information held by the operator, contact <a href="mailto:trandxya@gmail.com">trandxya@gmail.com</a>. If Pinterest authorization is enabled, account owners will also be able to revoke permission through the applicable Pinterest account settings. Data processed by third-party services is additionally subject to their privacy policies.</p>
+
+      <h2>8. Changes to this policy</h2>
+      <p>This policy may be revised as the planned publishing application becomes operational or its data-handling arrangements change. The date shown above will be updated whenever this page is revised.</p>
       <p><a class="back-link" href="./">← Back to the project homepage</a></p>
     </main>
-    <footer><span>© 2026 v1lads · Independent project, not affiliated with Pinterest.</span><a href="./">Home</a></footer>
+    <footer>
+      <span>© 2026 v1lads · Trandxya Cyber · Independent project, not affiliated with Pinterest.</span>
+      <a href="./">Home</a>
+    </footer>
   </div>
 </body>
 </html>
